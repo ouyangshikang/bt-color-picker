@@ -1,0 +1,24 @@
+{
+  "name": "bt-color-picker",
+  "version": "0.0.1",
+  "description": "bt-color-picker vue颜色选择器",
+  "main": "src/index.js",
+  "repository": "git@github.com:ouyangshikang/bt-color-picker.git",
+  "author": "baituo <baituo@gaoding.com>",
+  "scripts": {
+    "dev": "rimraf dist && parcel demo/index.html -p 1234",
+    "build": "rimraf dist && parcel build demo/index.html --public-url /"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.5.17"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^1.3.1",
+    "babel-eslint": "^9.0.0",
+    "eslint-plugin-html": "^4.0.5",
+    "rimraf": "^2.6.2",
+    "vue-hot-reload-api": "^2.3.0",
+    "vue-template-compiler": "^2.5.17"
+  }
+}
